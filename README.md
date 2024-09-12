@@ -79,9 +79,10 @@
 ##### 패키지 설치
 ```  images파일 추가
 python -m venv myweb
+만들어진 폴더에 zip 파일내용 붙여넣기
 cd myweb
 ./Scripts/activate
-만들어진 폴더에 zip 파일내용 붙여넣기
+
 pip install django djangorestframework
 pip install django_extensions pillow
 또는 pip install -r requirements.txt 이용
