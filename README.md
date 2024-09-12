@@ -9,8 +9,8 @@
 - [개발인원] : 백엔드 4명
 
 ### 기술스택
-- Language : python3
-- Framework : Django
+- Language : `python3`
+- Framework : `Django`
 
 ### ERD(1st)
 ![image](https://github.com/user-attachments/assets/2bcc12f3-f569-4b35-812c-f2b53c66e4c5)
@@ -29,7 +29,7 @@
 ### 구현 기능
 
 #### 김지웅
-- [ERD 내 USER 기능 담당]
+- [`ERD` 내 `USER` 기능 담당]
 - 회원가입 및 유저 관련 내용 로그인 페이지
 - 로그인
 ![image](https://github.com/user-attachments/assets/0e599038-ebb7-4f53-a9cf-77babee87063)
@@ -37,7 +37,7 @@
 ![image](https://github.com/user-attachments/assets/5c82ea31-0d02-46f7-ac5b-cee173fb1056)
 
 - 로그아웃시 메인 홈페이지 이동
-- 개인 정보 페이지(users 내 비밀번호 재확인 페이지, 개인정보 페이지(유저정보 관련 내용)
+- 개인 정보 페이지(`users` 내 비밀번호 재확인 페이지, 개인정보 페이지(유저정보 관련 내용)
   
 - 비밀번호 재확인 페이지
 ![image](https://github.com/user-attachments/assets/f87e64ca-d6d7-4f37-a2b6-4a0e363e3de8)
@@ -50,13 +50,13 @@
 
 ### 코드 작성하면서 어려웠던 기능
 ###### CSS 디자인 조정의 어려움
-- 문제점: 새로운 기능을 추가할 때마다 CSS 디자인이 미세하게 맞지 않아 어려움을 겪었고, 주로 margin과 padding을 통해 조정하였지만 정확한 조정이 어려웠음.
+- 문제점: 새로운 기능을 추가할 때마다 CSS 디자인이 미세하게 맞지 않아 어려움을 겪었고, 주로 `margin`과 `padding`을 통해 조정하였지만 정확한 조정이 어려웠음.
 - 해결 방법: 여러 번의 시도 끝에 디자인을 시각적으로 적절하게 맞출 수 있었고, 특히 메인 홈페이지의 배너 슬라이드 기능에서 스크립트를 사용해 3초마다 배너가 넘어가도록 구현함. 하지만, 페이지 크기를 조절할 때 배너 크기가 적절히 조정되지 않는 문제가 여전히 남아있음.
 
 ###### 비밀번호 재확인 폼의 입력란 잠금 기능
 - 문제점: 사용자 프로필에 들어가기 전에 비밀번호를 재확인하는 폼에서, 아이디 입력란을 잠그고 싶었음.
-- 해결 방법: readonly 속성을 사용하여 입력 필드를 수정할 수 없게 만들었음. readonly 속성은 HTML의 <input> 요소에서 사용자가 값을 수정하지 못하도록 설정하는 속성으로, 보안과 사용자 편의성을 동시에 달성할 수 있었음.
-<input type="text" name="id" value="{{ user.username }}" readonly class="readonly-input">
+- 해결 방법: `readonly` 속성을 사용하여 입력 필드를 수정할 수 없게 만들었음. `readonly` 속성은 HTML의 `<input>` 요소에서 사용자가 값을 수정하지 못하도록 설정하는 속성으로, 보안과 사용자 편의성을 동시에 달성할 수 있었음.
+- ```<input type="text" name="id" value="{{ user.username }}" readonly class="readonly-input">```
 
 
 ###  구현하려 했으나 해결하지 못한 기능
