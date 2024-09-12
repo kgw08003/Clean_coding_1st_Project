@@ -72,4 +72,18 @@
 - 추천인 코드를 통해 새로운 회원 가입 시 추천한 사용자에게 마일리지를 적립해주는 기능을 구현할 예정임. 이 기능을 통해 사용자들의 참여를 독려하고, 마일리지를 활용해 다양한 혜택을 제공할 수 있도록 할 계획임.
 
 ###### 홈페이지 검색어 입력 기능 연동
-- 사용자가 검색어를 입력하면 해당 검색어에 맞는 상품이나 정보를 연동하여 제공하는 검색 기능을 추가할 예정임. 
+- 사용자가 검색어를 입력하면 해당 검색어에 맞는 상품이나 정보를 연동하여 제공하는 검색 기능을 추가할 예정임.
+
+
+### 실행 방법 ⚙️
+##### 패키지 설치
+```  images파일 추가
+python -m venv myweb
+cd myweb
+./Scripts/activate
+만들어진 폴더에 zip 파일내용 붙여넣기
+pip install django djangorestframework
+pip install django_extensions pillow
+또는 pip install -r requirements.txt 이용
+python manage.py runserver
+```
