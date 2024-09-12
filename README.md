@@ -82,7 +82,6 @@ python -m venv myweb
 만들어진 폴더에 zip 파일내용 붙여넣기
 cd myweb
 ./Scripts/activate
-
 pip install django djangorestframework
 pip install django_extensions pillow
 또는 pip install -r requirements.txt 이용
