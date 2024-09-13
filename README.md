@@ -33,15 +33,15 @@
 - [`ERD` 내 `ORDERS` `CARTS` 기능 담당]
 - 장바구니 기능 (추가, 수정, 삭제)
 - 물건구매
-- ![image](https://github.com/user-attachments/assets/ed41cf67-889d-4b0b-b627-c8200ace2cbb)
-- ![image](https://github.com/user-attachments/assets/195cc85e-a542-455c-b352-1e509268a252)
-- ![image](https://github.com/user-attachments/assets/56935614-85f0-406c-926a-65464457e190)
+ ![image](https://github.com/user-attachments/assets/ed41cf67-889d-4b0b-b627-c8200ace2cbb)
+ ![image](https://github.com/user-attachments/assets/195cc85e-a542-455c-b352-1e509268a252)
+ ![image](https://github.com/user-attachments/assets/56935614-85f0-406c-926a-65464457e190)
 
 #### 신덕근
 - [`ERD` 내 `REVIEWS` 기능 담당]
 - 상품 리뷰 작성, 수정, 삭제
-- ![image](https://github.com/user-attachments/assets/90e46f61-5d60-4405-9fe5-f480564151e0)
-- ![image](https://github.com/user-attachments/assets/f50d81d4-2887-4e5a-99f7-c34af2871507)
+ ![image](https://github.com/user-attachments/assets/90e46f61-5d60-4405-9fe5-f480564151e0)
+ ![image](https://github.com/user-attachments/assets/f50d81d4-2887-4e5a-99f7-c34af2871507)
 
 
 #### 김지웅
@@ -59,7 +59,7 @@
 #### 김향은
 - [`ERD` 내 `PRODUCTS` 기능 담당]
 - 판매할 물건 등록, 삭제, 수정
-- ![image](https://github.com/user-attachments/assets/118953dc-762e-4785-ad8e-a1030b02dd01)
+ ![image](https://github.com/user-attachments/assets/118953dc-762e-4785-ad8e-a1030b02dd01)
 
 
 
