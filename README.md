@@ -47,13 +47,20 @@
 #### 김지웅
 - [`ERD` 내 `USER` 기능 담당]
 - 회원가입 및 유저 관련 내용 로그인 페이지
-- 로그인, 회원가입
+- 로그인
 ![image](https://github.com/user-attachments/assets/0e599038-ebb7-4f53-a9cf-77babee87063)
+- 회원가입
 ![image](https://github.com/user-attachments/assets/5c82ea31-0d02-46f7-ac5b-cee173fb1056)
-
-- 비밀번호 재확인 페이지, 개인정보 페이지(`users` 내 비밀번호 재확인 페이지, 개인정보 페이지(유저정보 관련 내용)
+- 로그아웃시 메인 홈페이지 이동
+- 개인 정보 페이지(`users` 내 비밀번호 재확인 페이지, 개인정보 페이지(유저정보 관련 내용)
+  
+- 비밀번호 재확인 페이지
 ![image](https://github.com/user-attachments/assets/f87e64ca-d6d7-4f37-a2b6-4a0e363e3de8)
+- 개인정보 페이지
 ![image](https://github.com/user-attachments/assets/3216e47e-51e1-437a-9877-36062881d80e)
+- 홈페이지 메인 화면 구축(html, css)
+- 특가/혜택, 고객센터 기본 구축
+
 
 
 #### 김향은
